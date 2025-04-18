@@ -44,18 +44,6 @@ console.log(
   authenticateUser("user", "wrongpass")
 ); // false
 
-console.log(
-  "User authentication (invalid user):",
-  authenticateUser("user", "wrongpass")
-); // false
-console.log(
-  "User authentication (invalid user):",
-  authenticateUser("user", "wrongpass")
-); // false
-console.log(
-  "User authentication (invalid user):",
-  authenticateUser("user", "wrongpass")
-); // false
 
 // Check reminders
 checkReminders();
